@@ -1,8 +1,9 @@
 def hello:
-    print("Hello world !")
+    print("Hello {} !",name)
 
 if __name__=="__main__":
-    hello()
+    name=readinput("enter the name")
+    hello(name)
 
 
 
