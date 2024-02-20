@@ -57,6 +57,24 @@ git clone -b <branchname> <git url>
 
 git push -u origin main
 
+git log
+git log --pretty=oneline
+git log --graph
+
+git tag
+git tag <tag version>
+git push origin <tag version>
+git show <tagversion>
+
+
+git switch <branch> -> switches between the branches
+git switch -c <branch> -> creates a new branch
+
+git branch -> list the local branches
+git branch --all -> list all the branches, local & remote
+
+git branch -d <branch name> --> delete the branch
+git branch --delete
 <>
 $ git remote add origin <git url>
 
